@@ -1,0 +1,11 @@
+METODOS HTTP
+=================================================
+
+GET
+     Busca alguma informação
+POST
+     Cria uma informação
+PUT
+     Altera uma informação
+DELETE
+     Deleta uma informação
