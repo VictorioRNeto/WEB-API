@@ -1,10 +1,6 @@
-//exporta a biblioteca express
-const express = require("express");
-//chama função express
-const app = express();
-app.get('/test', (request, response) =>{
-     return response.send("Teste de nodemon")
-})
+//importa biblioteca
+//const app = require("./app");
+import app from "./app";
 //abrindo servidor express na porta 3333
 app.listen(3333, () => {
   console.log("Serviço roando na porta 3333"); //verificação de funcionamento
